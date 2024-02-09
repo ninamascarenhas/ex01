@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+@media only screen and (max-width: 375px) {
+    body {
+        width: 100%;
+    }
+
+    article {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        line-height: 230px;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 1440px) {
+    body {
+        width: 100%;
+    }
+
+    article {
+        width: 60%;
+    }
+
+    article.prepar {
+        width: 90%;
+    }
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+:root {
+    --cor1: hsl(0, 0%, 100%);
+    --cor2: hsl(330, 100%, 98%);
+    --cor3: hsl(30, 54%, 90%);
+    --cor4: hsl(30, 18%, 87%);
+    --cor5: hsl(30, 10%, 34%);
+    --cor6: hsl(24, 5%, 18%);
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    max-width: 100%;
+    font-family: 'Outfit', sans-serif;
+    line-height: 30px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+article {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 30px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.foto1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    font-family: 'Young Serif';
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+    margin-bottom: 0px;
+    line-height: 9px;
+}
+
+.preparclas {
+    margin: 0px;
+}
+
+.prepar {
+    background-color: hsl(330, 43%, 95%);
+    border-radius: 5px;
+    width: 90%;
+    max-width: 750px;
+    height: 200px;
+    margin: auto;
+    padding: 0.2px 20px 10px 20px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+ol>li.number {
+    color: red;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.nutrition th,
+.nutrition td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition th {
+    font-weight: bold;
+    display: none;
+}
+
+.nutrition td {
+    color: #666;
+}
+
+.numerico {
+    color: hsl(14, 45%, 36%) !important;
+}
